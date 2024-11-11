@@ -1,0 +1,15 @@
+.navheader{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 62px;
+    background-color: #A40F11;  
+  }
+  .navheader img{
+    padding: 0 0 0 5px;
+  }
+  .navicons img{
+    padding: 5px 8px 5px 5px ;
+  }
+  

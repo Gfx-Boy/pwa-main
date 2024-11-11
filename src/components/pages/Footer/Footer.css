@@ -1,0 +1,15 @@
+.bottom-nav {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+    background-color: white;
+    border-top: 1px solid white;
+  }
+  
+  .nav-icon {
+    font-size: 1.5em;
+    width: 22px;
+    height: 25px;
+    cursor: pointer;
+    color: #95989A;
+  }

@@ -1,0 +1,132 @@
+/* src/Login.css */
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f7f7f7;
+}
+
+.login-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f7f7f7;
+  padding: 20px;
+}
+
+.login-box {
+  max-width: 360px;
+  width: 100%;
+  padding: 40px 20px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.logo {
+  width: 80px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-family: "prompt", sans-serif;
+  margin-top: 0;
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: #333;
+  padding-bottom: 20px;
+}
+
+.input-group {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 12px 15px 12px 45px; /* Adjusted left padding to make room for the icon */
+  font-size: 1rem;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  outline: none;
+  transition: border 0.3s;
+}
+
+
+.input-group input:focus {
+  border: 1px solid #b71c1c;
+}
+
+.icon {
+  position: absolute;
+  left: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 1.2rem;
+  color: #888;
+}
+
+.login-btn {
+  width: 100%;
+  padding: 12px;
+  margin-top: 10px;
+  background-color: #b71c1c;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.login-btn:hover {
+  background-color: #a4161c;
+}
+
+.signup-link {
+  margin-top: 15px;
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.signup-link a {
+  color: #b71c1c;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.separator {
+  margin: 20px 0;
+  color: #999;
+  font-size: 0.9rem;
+}
+
+.google-login {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  background-color: white;
+  transition: border 0.3s;
+  font-weight: bold;
+  color: #4D5051;
+}
+
+.google-login img {
+  width: 33px;
+  height: 31px;
+  margin-right: 15px;
+}
+
+.google-login:hover {
+  border-color: #888;
+}
+

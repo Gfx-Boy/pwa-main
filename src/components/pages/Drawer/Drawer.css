@@ -1,0 +1,141 @@
+.out{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+}
+.in{
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 260px;
+    height: 625px;
+    background-color: transparent;
+    border-radius: 12px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    overflow: hidden;
+}
+.open{
+    overflow: hidden;
+    border-radius: 12px;
+    width: 260px;
+    height: 625px;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+  
+  .profile-section {
+    padding: 10px;
+    display: flex;
+    align-items: center;  
+    width: 100%;
+    height: 170px;
+    background-color: #82919A;  
+  }
+  .profile-section img{
+    width: 112px;
+    height: 110px;
+  }
+  .information{
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .profile-pic {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  
+  .profile-name {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  .profile-email {
+    font-size: 14px;
+    color: #ddd;
+    margin-top: 4px;
+  }
+  
+/* list */
+nav{
+    height: 100%;
+    background-color: #b71c1c;
+    width: 100%;
+    padding: 30px 3px 50px 3px;
+}
+  .listmenu {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .listmenu li {
+    color: white;
+    font-family: "prompt", sans-serif;
+    width: 262px;
+    height: 42px;
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    cursor: pointer;
+    border-radius: 20px;
+    transition: background-color 0.2s ease;
+  }
+  
+  .listmenu li:hover {
+    background-color: #EFEFF0;
+  }
+  
+  .icon {
+    margin-right: 10px;
+    font-size: 20px;
+  }
+  .liicons{
+    width: 22px;
+    height: 22px;
+    margin: 5px 8px 5px 10px;
+    color: black;
+  }
+  /* Icons for each menu item */
+  /* .dashboard-icon::before {
+    content: '🏠';
+  }
+  
+  .notification-icon::before {
+    content: '🔔';
+  }
+  
+  .properties-icon::before {
+    content: '🏘️';
+  }
+  
+  .premium-icon::before {
+    content: '⭐';
+  }
+  
+  .contractor-icon::before {
+    content: '🛠️';
+  }
+  
+  .subscription-icon::before {
+    content: '💳';
+  }
+  
+  .settings-icon::before {
+    content: '⚙️';
+  }
+  
+  .help-icon::before {
+    content: '❓';
+  }
+   */

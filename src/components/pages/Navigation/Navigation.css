@@ -1,0 +1,47 @@
+/* Reset and Basic Styling */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f7f7f7;
+}
+
+/* main screen */
+.navmain{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f7f7f7;
+  padding: 20px;
+}  
+
+/* inside main */
+.appbox{
+  max-width: 360px;
+  height: 625px;
+  width: 100%;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  overflow: hidden;
+}
+
+
+/* content */
+.navcontent{
+  height: 515px;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;  
+  padding: 7px;
+}
+.navcontent h2{
+  padding: 8px 0 0 8px;
+  font-family:"Prompt", sans-serif ;
+  font-weight: 500;
+  font-size: medium;
+}
+  
+  
